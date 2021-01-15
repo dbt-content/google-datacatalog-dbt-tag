@@ -1,6 +1,6 @@
 # dbt and Cloud dbt Tags
 
-<img src="https://github.com/dbt-content/google-datacatalog-dbt-tag/raw/main/images/dbt_datacatalog.png" width="80%" height="80%">
+<img src="https://github.com/dbt-content/google-datacatalog-dbt-tag/raw/main/images/dbt_datacatalog.png" width="60%" height="60%">
 
 Create or update [Google Cloud Data Catalog](https://cloud.google.com/data-catalog/) tags on BigQuery tables with [Cloud dbt](https://cloud.getdbt.com/) metadata via a Python [Cloud Function](https://cloud.google.com/functions).
 
@@ -45,4 +45,5 @@ Happy tagging !
 
 ![image](images/DataCatalog_dbt-tag.png)
 
-![image](images/DataCatalog_dbt-tag-template.png)
+<img src="https://github.com/dbt-content/google-datacatalog-dbt-tag/raw/main/images/DataCatalog_dbt-tag-template.png" width="60%" height="60%">
+
