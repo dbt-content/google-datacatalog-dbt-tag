@@ -2,10 +2,9 @@
 
 <img src="https://github.com/dbt-content/google-datacatalog-dbt-tag/raw/main/images/dbt_datacatalog.png" width="80%" height="80%">
 
-Create or update [Google Cloud Data Catalog](https://cloud.google.com/data-catalog/) tags on BigQuery tables with [Cloud dbt](https://cloud.getdbt.com/) Metadata via a [Cloud Function](https://cloud.google.com/functions).
+Create or update [Google Cloud Data Catalog](https://cloud.google.com/data-catalog/) tags on BigQuery tables with [Cloud dbt](https://cloud.getdbt.com/) metadata via a Python [Cloud Function](https://cloud.google.com/functions).
 
-Data Catalog tag created or updated:
-**[dbt Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_templates/dbt_metadata_tag_template.txt)** tag attached to the BigQuery table and containing information from the dbt Run used to create or update the BigQuery table : the user, dbt Job (id, name, url, timestamp), dbt Dataset (id, name, url), dbt Flow (id, name, url), Job Profile (url and nb valid, invalid an empty values) and the Dataflow job (id, url).
+Data Catalog tag : **[dbt Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_templates/dbt_metadata_tag_template.txt)** tag attached to the BigQuery table and containing information from the dbt Run used to create or update the BigQuery table : the .
 
 To activate, learn and use Cloud Data Catalog, go to [https://cloud.google.com/data-catalog](https://cloud.google.com/data-catalog) and [https://console.cloud.google.com/datacatalog](https://console.cloud.google.com/datacatalog).
 
@@ -44,12 +43,6 @@ Finally, you can also search BigQuery tables in Cloud Data Catalog with a dbt ta
 Happy tagging !
 <br><br><br>
 
-![image](images/DataCatalog_dbt_metadata_tag.png)
+![image](images/DataCatalog_dbt_tag.png)
 
-![image](images/DataCatalog_dbt_column_profile_tag.png)
-
-![image](images/DataCatalog_dbt_metadata_tag_template.png)
-
-![image](images/DataCatalog_dbt_column_profile_tag_template.png)
-
-![image](images/Google_Cloud_Data_Catalog_dbt_Webhook.png)
+![image](images/DataCatalog_dbt_tag_template.png)
