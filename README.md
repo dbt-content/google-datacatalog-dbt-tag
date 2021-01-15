@@ -43,6 +43,6 @@ Finally, you can also search BigQuery tables in Cloud Data Catalog with a dbt ta
 Happy tagging !
 <br><br><br>
 
-![image](images/DataCatalog_dbt_tag.png)
+![image](images/DataCatalog_dbt-tag.png)
 
-![image](images/DataCatalog_dbt_tag_template.png)
+![image](images/DataCatalog_dbt-tag-template.png)
