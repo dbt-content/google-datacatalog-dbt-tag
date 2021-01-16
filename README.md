@@ -2,9 +2,9 @@
 
 <img src="https://github.com/dbt-content/google-datacatalog-dbt-tag/raw/main/images/dbt_datacatalog.png" width="60%" height="60%">
 
-Create or update [Google Cloud Data Catalog](https://cloud.google.com/data-catalog/) tags on BigQuery tables with [Cloud dbt](https://cloud.getdbt.com/) metadata via a Python [Cloud Function](https://cloud.google.com/functions).
+Create or update a [Google Cloud Data Catalog](https://cloud.google.com/data-catalog/) tag on BigQuery tables or views with [Cloud dbt](https://cloud.getdbt.com/) metadata via a Python [Cloud Function](https://cloud.google.com/functions).
 
-Data Catalog tag : **[dbt Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_templates/dbt_metadata_tag_template.txt)** tag attached to the BigQuery table and containing information from the dbt Run used to create or update the BigQuery table : the .
+Data Catalog tag : **[dbt Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_templates/dbt_metadata_tag_template.txt)** tag attached to the BigQuery table or view and containing information from the dbt Run used to create or update the BigQuery table or view : the .
 
 To activate, learn and use Cloud Data Catalog, go to [https://cloud.google.com/data-catalog](https://cloud.google.com/data-catalog) and [https://console.cloud.google.com/datacatalog](https://console.cloud.google.com/datacatalog).
 
@@ -22,7 +22,7 @@ In your Cloud Function, you need the 5 files:
 - [requirements.txt](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/requirements.txt)
 
 
-Before runing the Cloud Function (and create or update tags), you need to create the a Data Catalog Tag Template for dbt ([Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_templates/dbt_metadata_tag_template.txt).
+Before runing the Cloud Function (and create or update tags), you need to create the Data Catalog Tag Template for dbt ([Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_templates/dbt_metadata_tag_template.txt).
 
 You can use:
 
@@ -34,10 +34,10 @@ You can use:
 
 To use the Cloud Function you just have to pass the dbt Cloud Run ID and the dbt Cloud Account ID in a JSON format like ```{"job_id":"7827359"}```.
 
-When Data Catalog template tags are created and when tags are created or updated on BigQuery tables, you can find all results from [https://console.cloud.google.com/datacatalog](https://console.cloud.google.com/datacatalog).
+When the Data Catalog template tag is created and when a tag is created or updated on BigQuery tables or views, you can find all results from [https://console.cloud.google.com/datacatalog](https://console.cloud.google.com/datacatalog).
 
 
-Finally, you can also search BigQuery tables in Cloud Data Catalog with a dbt tag from your own application like [https://github.com/victorcouste/dbt-datacatalog-explorer](https://github.com/dbt-content/dbt-datacatalog-explorer)
+Finally, you can also search BigQuery tables or views in Cloud Data Catalog with a dbt tag from your own application like [https://github.com/dbt-content/dbt-datacatalog-explorer](https://github.com/dbt-content/dbt-datacatalog-explorer)
 
 <br>
 Happy tagging !
