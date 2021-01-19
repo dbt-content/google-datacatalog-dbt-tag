@@ -1,4 +1,4 @@
-# dbt and Cloud dbt Tags
+# Google Cloud Data Catalog and dbt
 
 <img src="https://github.com/dbt-content/google-datacatalog-dbt-tag/raw/main/images/dbt_datacatalog.png" width="60%" height="60%">
 
