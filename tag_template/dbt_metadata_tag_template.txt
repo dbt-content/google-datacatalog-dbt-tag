@@ -1,16 +1,16 @@
-dbt_run_id              dbt Run id 				      STRING
+dbt_run_id              dbt Run id              STRING
 dbt_run_timestamp       dbt Run timestamp       DATETIME
-dbt_duration            dbt Duration 			      STRING
-dbt_run_duration        dbt Run duration 	      STRING
-dbt_run_url             dbt Run url 			      STRING
-dbt_project_name        dbt Project name 		    STRING
-dbt_model_name          dbt Model name 			    STRING
-dbt_sql_run_url         dbt SQL run url 		    STRING
-dbt_job_id              dbt Job id 				      STRING
-dbt_job_name            dbt Job name 			      STRING
-dbt_job_url             dbt Job url 			      STRING
-dbt_cloud_project_id    dbt Cloud Project id 	  STRING
-dbt_cloud_project_name  dbt Cloud Project name 	STRING
-dbt_cloud_project_url   dbt Cloud Project url 	STRING
-approximate_bytes_size  Approximate bytes size 	STRING
-approximate_rows_count  Approximate rows count 	STRING
+dbt_duration            dbt Duration            STRING
+dbt_run_duration        dbt Run duration        STRING
+dbt_run_url             dbt Run url             STRING
+dbt_project_name        dbt Project name        STRING
+dbt_model_name          dbt Model name          STRING
+dbt_sql_run_url         dbt SQL run url         STRING
+dbt_job_id              dbt Job id              STRING
+dbt_job_name            dbt Job name            STRING
+dbt_job_url             dbt Job url             STRING
+dbt_cloud_project_id    dbt Cloud Project id    STRING
+dbt_cloud_project_name  dbt Cloud Project name  STRING
+dbt_cloud_project_url   dbt Cloud Project url   STRING
+approximate_bytes_size  Approximate bytes size  STRING
+approximate_rows_count  Approximate rows count  STRING
