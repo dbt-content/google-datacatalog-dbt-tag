@@ -12,7 +12,7 @@ This repository contains the Cloud Function Python code to create or update the 
 
 This Cloud Function uses:
 - [Python Client for Google Cloud Data Catalog API](https://googleapis.dev/python/datacatalog/latest/index.html#)
-- [Cloud dbt REST API](https://docs.getdbt.com/dbt-cloud/api/)
+- [dbt Cloud API](https://docs.getdbt.com/dbt-cloud/api/)
 
 In your Cloud Function, you need the 5 files:
 - [main.py](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/main.py)
