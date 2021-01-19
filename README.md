@@ -4,7 +4,7 @@
 
 Create or update a [Google Cloud Data Catalog](https://cloud.google.com/data-catalog/) tag on BigQuery tables or views with [Cloud dbt](https://cloud.getdbt.com/) metadata via a Python [Cloud Function](https://cloud.google.com/functions).
 
-Data Catalog tag : **[dbt Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_templates/dbt_metadata_tag_template.txt)** tag attached to the BigQuery table or view and containing information from the dbt Run used to create or update the BigQuery table or view : the .
+Data Catalog tag : **[dbt Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_templates/dbt_metadata_tag_template.txt)** tag attached to the BigQuery table or view and containing information from the dbt Run used to create or update the BigQuery table or view : Run durations and date, dbt Project and Model names, Cloud job name and url, Cloud project name and url, approximative size and rows count.
 
 To activate, learn and use Cloud Data Catalog, go to [https://cloud.google.com/data-catalog](https://cloud.google.com/data-catalog) and [https://console.cloud.google.com/datacatalog](https://console.cloud.google.com/datacatalog).
 
