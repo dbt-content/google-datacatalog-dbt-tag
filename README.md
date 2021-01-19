@@ -22,7 +22,7 @@ In your Cloud Function, you need the 5 files:
 - [requirements.txt](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/requirements.txt)
 
 
-Before runing the Cloud Function (and create or update tags), you need to create the Data Catalog Tag Template for dbt ([Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_template/dbt_metadata_tag_template.txt).
+Before runing the Cloud Function (and create or update tags), you need to create the Data Catalog Tag Template for [dbt Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_template/dbt_metadata_tag_template.txt).
 
 You can use:
 
