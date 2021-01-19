@@ -16,7 +16,7 @@ This Cloud Function uses:
 
 In your Cloud Function, you need the 5 files:
 - [main.py](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/main.py)
-- [config.py](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/config.py) where you need to update your **GCP project name** (where the dbt Tag Template is created) and the **[dbt Access Token](https://docs.trifacta.com/display/DP/Access+Tokens+Page)** (to use dbt Cloud API). You can also update the tag template ID if needed.
+- [config.py](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/config.py) where you need to update your **GCP project name** (where the dbt Tag Template is created) and the **[dbt Auth Token](https://docs.getdbt.com/dbt-cloud/api/#section/Authentication/TokenAuth)** (to use dbt Cloud API). You can also update the tag template ID if needed.
 - [datacatalog_functions.py](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/datacatalog_functions.py)
 - [dbt_metadata.py](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/dbt_metadata.py)
 - [requirements.txt](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/requirements.txt)
