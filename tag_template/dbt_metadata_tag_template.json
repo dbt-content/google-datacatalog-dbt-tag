@@ -1,0 +1,117 @@
+{
+  "displayName":"dbt Metadata",
+  "fields":{
+    "dbt_run_id":{
+      "displayName":"dbt Run id",
+      "isRequired": "true",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    },
+    "dbt_run_timestamp":{
+      "displayName":"dbt Run timestamp",
+      "isRequired": "true",
+      "type":{
+        "primitiveType":"DATETIME"
+      }
+    },
+    "dbt_duration":{
+      "displayName":"dbt Duration",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    },
+    "dbt_run_duration":{
+      "displayName":"dbt Run duration",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    },
+    "dbt_run_url":{
+      "displayName":"dbt Run url",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    },
+    "dbt_project_name":{
+      "displayName":"dbt Project name",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    },   
+    "dbt_model_name":{
+      "displayName":"dbt Model name",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    }, 
+    "dbt_sql_run_url":{
+      "displayName":"dbt SQL run url",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    }, 
+    "dbt_job_id":{
+      "displayName":"dbt Job id",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    }, 
+    "dbt_job_name":{
+      "displayName":"dbt Job name",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    }, 
+    "dbt_job_url":{
+      "displayName":"dbt Job url",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    }, 
+    "dbt_cloud_project_id":{
+      "displayName":"dbt Cloud Project id",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    },
+    "dbt_cloud_project_name":{
+      "displayName":"dbt Cloud Project name",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    }, 
+    "dbt_cloud_project_url":{
+      "displayName":"dbt Cloud Project url",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    }, 
+    "approximate_bytes_size":{
+      "displayName":"Approximate bytes size",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    }, 
+    "approximate_rows_count":{
+      "displayName":"Approximate rows count",
+      "isRequired": "false",
+      "type":{
+        "primitiveType":"STRING"
+      }
+    } 
+  }
+}

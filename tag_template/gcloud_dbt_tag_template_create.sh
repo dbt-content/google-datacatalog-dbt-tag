@@ -1,0 +1,19 @@
+gcloud --project <your_gcp_project> data-catalog tag-templates create dbt_metadata \
+    --location=us-central1 \
+    --display-name="dbt Metadata" \
+    --field=id=dbt_run_id,display-name="dbt Run id",type=string,required=TRUE \
+    --field=id=dbt_run_timestamp,display-name="dbt Run timestamp",type=timestamp,required=TRUE \
+    --field=id=dbt_duration,display-name="dbt Duration",type=string\
+    --field=id=dbt_run_duration,display-name="dbt Run duration",type=string\
+    --field=id=dbt_run_url,display-name="dbt Run url",type=string\
+    --field=id=dbt_project_name,display-name="dbt Project name",type=string\
+    --field=id=dbt_model_name,display-name="dbt Model name",type=string\
+    --field=id=dbt_sql_run_url,display-name="dbt SQL run url",type=string\
+    --field=id=dbt_job_id,display-name="dbt Job id",type=string\
+    --field=id=dbt_job_name,display-name="dbt Job name",type=string\
+    --field=id=dbt_job_url,display-name="dbt Job url",type=string\
+    --field=id=dbt_cloud_project_id,display-name="dbt Cloud Project id",type=string\
+    --field=id=dbt_cloud_project_name,display-name="dbt Cloud Project name",type=string\
+    --field=id=dbt_cloud_project_url,display-name="dbt Cloud Project url",type=string\
+    --field=id=approximate_bytes_size,display-name="Approximate bytes size",type=string\
+    --field=id=approximate_rows_count,display-name="Approximate rows count",type=string
