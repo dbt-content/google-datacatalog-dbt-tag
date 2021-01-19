@@ -22,15 +22,15 @@ In your Cloud Function, you need the 5 files:
 - [requirements.txt](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/requirements.txt)
 
 
-Before runing the Cloud Function (and create or update tags), you need to create the Data Catalog Tag Template for dbt ([Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_templates/dbt_metadata_tag_template.txt).
+Before runing the Cloud Function (and create or update tags), you need to create the Data Catalog Tag Template for dbt ([Run Metadata](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_template/dbt_metadata_tag_template.txt).
 
 You can use:
 
 - **Cloud Console** where you can [manage your Tag Templates](https://console.cloud.google.com/datacatalog?q=type%3DTAG_TEMPLATE)
 
-- **gcloud** and the command `gcloud data-catalog tag-templates create`, full command lines in [gcloud_dbt_tag_template_create.sh](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_templates/gcloud_dbt_tag_template_create.sh), more details with and [example](https://cloud.google.com/data-catalog/docs/quickstart-tagging#data-catalog-quickstart-gcloud) and [reference](https://cloud.google.com/sdk/gcloud/reference/data-catalog/tag-templates/create). But be aware that with gcloud command line, you cannot manage template tag fields's order, fields will be in alphabetical order.
+- **gcloud** and the command `gcloud data-catalog tag-templates create`, full command lines in [gcloud_dbt_tag_template_create.sh](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_template/gcloud_dbt_tag_template_create.sh), more details with and [example](https://cloud.google.com/data-catalog/docs/quickstart-tagging#data-catalog-quickstart-gcloud) and [reference](https://cloud.google.com/sdk/gcloud/reference/data-catalog/tag-templates/create). But be aware that with gcloud command line, you cannot manage template tag fields's order, fields will be in alphabetical order.
 
-- **REST API** with the tag template json file [dbt_metadata_tag_template.json](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_templates/dbt_metadata_tag_template.json), more details with an [example](https://cloud.google.com/data-catalog/docs/quickstart-tagging#data-catalog-quickstart-drest) and [reference](https://cloud.google.com/data-catalog/docs/reference/rest/v1/projects.locations.tagTemplates/create).
+- **REST API** with the tag template json file [dbt_metadata_tag_template.json](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_template/dbt_metadata_tag_template.json), more details with an [example](https://cloud.google.com/data-catalog/docs/quickstart-tagging#data-catalog-quickstart-drest) and [reference](https://cloud.google.com/data-catalog/docs/reference/rest/v1/projects.locations.tagTemplates/create).
 
 To use the Cloud Function you just have to pass the dbt Cloud Run ID and the dbt Cloud Account ID in a JSON format like ```{"job_id":"7827359"}```.
 
