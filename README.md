@@ -32,7 +32,7 @@ You can use:
 
 - **REST API** with the tag template json file [dbt_metadata_tag_template.json](https://github.com/dbt-content/google-datacatalog-dbt-tag/blob/main/tag_template/dbt_metadata_tag_template.json), more details with an [example](https://cloud.google.com/data-catalog/docs/quickstart-tagging#data-catalog-quickstart-drest) and [reference](https://cloud.google.com/data-catalog/docs/reference/rest/v1/projects.locations.tagTemplates/create).
 
-To use the Cloud Function you just have to pass the dbt Cloud Run ID and the dbt Cloud Account ID in a JSON format like ```{"job_id":"7827359"}```.
+To use the Cloud Function you just have to pass the dbt Cloud Run ID and the dbt Cloud Account ID in a JSON format like ```{"dbt_run_id":"13161733","dbt_account_id":"11442"}```.
 
 When the Data Catalog template tag is created and when a tag is created or updated on BigQuery tables or views, you can find all results from [https://console.cloud.google.com/datacatalog](https://console.cloud.google.com/datacatalog).
 
